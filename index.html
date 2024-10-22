@@ -43,14 +43,21 @@
                         </li>
 
                         <li class="input-container"> 
-                            <input type="text" name="mensagem" id="mensagem" class="campo" placeholder="Mensagem *">
+                            <!-- <input type="text" name="mensagem" id="mensagem" class="campo" placeholder="Mensagem *"> -->
+
+                            <!-- CORREÇÃO -->
+                            <textarea name="mensagem" id="mensagem" class="campo" placeholder="Mensagem *"></textarea>
+
                             <span class="mensagem-erro" id="erro4">campo obrigatório</span>
                         </li>
                     </ul>
 
                     <span class="obrigatorio">*campos obrigatórios</span>
 
-                    <input type="submit" value="Enviar" id="enviar" class="btn-enviar">
+                    <!-- <input type="submit" value="Enviar" id="enviar" class="btn-enviar"> -->
+
+                    <!-- CORREÇÃO -->
+                    <button type="submit" id="enviar" class="btn-enviar">Enviar</button>
                 </form>
             </div>
         </section>

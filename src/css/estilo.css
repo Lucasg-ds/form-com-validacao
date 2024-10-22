@@ -66,8 +66,8 @@ main {
 }
 
 .formulario .campo#mensagem {
-
-    padding-bottom: 75px;
+    resize: none;
+    padding-bottom: 55px;
 }
 
 .contate-nos .formulario .campo:nth-child(4) {
@@ -120,3 +120,8 @@ main {
     border: 1px solid #F52E2E;
 }
 
+@media screen and (max-width: 768px) {
+    .contate-nos {
+        flex-direction: column;
+    } 
+}
